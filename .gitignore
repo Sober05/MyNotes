@@ -1,0 +1,7 @@
+# Obsidian workspace & plugin config — personal, not shared
+.obsidian/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
