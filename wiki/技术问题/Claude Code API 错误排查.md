@@ -28,3 +28,7 @@
 - **根因：** 服务端临时故障，非本地环境问题
 - **Hook 缺失：** 文件已手动补全 (`C:\Users\20159\.claude\chat-server\push_context.py`)
 - **恢复：** 后续会话正常
+
+## 相关页面
+
+- [[工具配置/Claude Code Skills 列表]] — 全部 Skills 参考

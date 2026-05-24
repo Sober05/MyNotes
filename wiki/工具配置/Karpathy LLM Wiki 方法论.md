@@ -31,6 +31,11 @@ Andrej Karpathy（OpenAI 联创、前 Tesla AI 总监）的个人知识管理系
 - **File over App** — 纯 Markdown，永久可读
 - **BYOAI** — 想用哪个 AI 用哪个
 
+## 相关页面
+
+- [[Obsidian 安装配置]] — 本 vault 的 Obsidian 环境
+- [[Git-GitHub 配置]] — 同步方案
+
 > Karpathy 金句：「Obsidian 是 IDE，LLM 是程序员，Wiki 是代码库。」
 
 ---

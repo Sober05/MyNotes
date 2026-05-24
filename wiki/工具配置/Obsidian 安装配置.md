@@ -17,7 +17,8 @@ winget install Obsidian.Obsidian --accept-package-agreements
 ## 当前 Vault
 
 - **位置：** `C:\Users\20159\OneDrive\Desktop\MyNotes\`
-- **同步方式：** Git + GitHub
+- **同步方式：** [[Git-GitHub 配置|Git + GitHub]]
+- **组织方法：** [[Karpathy LLM Wiki 方法论]]（三层架构）
 
 ## Obsidian 简介
 
