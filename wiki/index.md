@@ -24,6 +24,13 @@
 | [[工具配置/Claude Code Skills 列表]] | 16 个 Skills 名称与触发词 | `claude-code` `skills` |
 | [[工具配置/Karpathy LLM Wiki 方法论]] | Karpathy 个人知识管理系统 | `karpathy` `wiki` `methodology` |
 
+## 📖 学习笔记
+
+| 页面 | 说明 | 标签 |
+|------|------|------|
+| [[学习/期末考试冲刺/00-总计划]] | 4 科 33 天期末突击计划 | `study` `nursing` |
+| [[学习/期末考试冲刺/错题库]] | 全部错题集中收录 | `study` `errors` |
+
 ## 📥 Raw 素材
 
 | 路径 | 说明 |
