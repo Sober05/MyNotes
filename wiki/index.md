@@ -22,6 +22,7 @@
 | [[工具配置/Obsidian 安装配置]] | Obsidian v1.12.7 安装 | `obsidian` `install` |
 | [[工具配置/Git-GitHub 配置]] | Git 初始化 + GitHub 同步 | `git` `github` |
 | [[工具配置/Claude Code Skills 列表]] | 16 个 Skills 名称与触发词 | `claude-code` `skills` |
+| [[工具配置/Karpathy LLM Wiki 方法论]] | Karpathy 个人知识管理系统 | `karpathy` `wiki` `methodology` |
 
 ## 📥 Raw 素材
 
