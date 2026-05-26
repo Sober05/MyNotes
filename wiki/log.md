@@ -8,4 +8,7 @@
 - **2026-05-24 17:15** — **Lint 检查**：修复 1 处过时内容（Git-GitHub 状态），添加 4 个交叉引用（Obsidian↔Karpathy↔GitHub, API排查↔Skills）
 - **2026-05-24 17:10** — 按 Karpathy LLM Wiki 方法论重组 vault：创建 `raw/` `wiki/`，迁移所有笔记到 `wiki/`，建立 `CLAUDE.md` 规则文件
 - **2026-05-24 17:04** — 添加 Claude Code Skills 列表，收录 16 个 Skills
-- **2026-05-24 16:52** — 初始化 vault，GitHub 仓库 `Sober05/MyNotes`，`.gitignore` 排除 `.obsidian/`
+- **2026-05-26 14:35** — 桌面文件大整理：按功能分类为 8 个中文文件夹（项目/技能插件/文档资料/图片素材/快捷方式/笔记/软件工具/其他），MyNotes vault 迁移至 `笔记/MyNotes/`
+- **2026-05-26 15:00** — 开发桌面宠物应用：PyQt5 像素猫，DeepSeek API 驱动，支持聊天对话、文件拖拽分析、系统托盘、空闲检测自动睡觉、心情系统、定时提醒、剪贴板监控、快速启动菜单
+- **2026-05-26 15:30** — 桌面宠物全面中文化 + 修复 HTML 注入崩溃 + 修复流式输出线程安全问题
+- **2026-05-26 14:20** — 配置 Claude Code Statusline（上下文用量可视化进度条，Python 脚本，5s 刷新）
