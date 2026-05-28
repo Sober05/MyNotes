@@ -20,3 +20,6 @@
 - **2026-05-26 19:45** — 修复启动崩溃（PetSystems 初始化顺序）+ 快捷方式改用 pythonw 无窗口启动
 - **2026-05-26 19:20** — 创建 sync-obsidian Skill：对话自动同步 Obsidian + GitHub
 - **2026-05-28 全天** — 自由职业启动日：研究猪八戒平台行情与定价、盘点本地技术栈（Node.js/Python/微信开发者工具）、确定纯前端+企业官网方向、设计三档套餐（¥599/¥1999/¥4999）、搭建 SitePro 企业官网模板（Next.js 15 + Tailwind CSS + 中英文双语 + 响应式+7 模块）、经历 Next.js 16→15 降级/Windows SWC WASM 兼容/npm 淘宝镜像/Footer 'use client' 修复等排错、二轮设计升级（暗色 Hero/渐变/动画/SVG 图标/浮动卡片）
+- **2026-05-28 下午** — 安装 4 个新 Skill：impeccable（设计审计/反AI痕迹）、taste-skill（品味判断/设计差异化）、ui-ux-pro-max（UI/UX专业打磨）、amap（高德地图API）
+- **2026-05-28 下午** — SitePro 三轮设计打磨：(1) impeccable 审计修复5+处AI slop（渐变文字、hero指标模板、相同卡片网格、重复大写标签、零图片）、(2) taste-skill 品味升级（暗色摄影Hero、Services细线网格+编号、Cases极简行列表、Contact下划线表单）、(3) ui-ux-pro-max 专业收尾（文字对比度合规、cursor-pointer统一、transition时长归一）
+- **2026-05-28 晚上** — 专业设计审计：发现11个问题（P0-P3），涉及移动端导航缺失、品牌无个性、标签模式滥用、无社会证明、无入场动画等。全部逐一修复：添加汉堡菜单+滚动动画hook(useReveal)+客户评价组件(Trusted)+品牌标语+Section头部多样化
