@@ -23,3 +23,8 @@
 - **2026-05-28 下午** — 安装 4 个新 Skill：impeccable（设计审计/反AI痕迹）、taste-skill（品味判断/设计差异化）、ui-ux-pro-max（UI/UX专业打磨）、amap（高德地图API）
 - **2026-05-28 下午** — SitePro 三轮设计打磨：(1) impeccable 审计修复5+处AI slop（渐变文字、hero指标模板、相同卡片网格、重复大写标签、零图片）、(2) taste-skill 品味升级（暗色摄影Hero、Services细线网格+编号、Cases极简行列表、Contact下划线表单）、(3) ui-ux-pro-max 专业收尾（文字对比度合规、cursor-pointer统一、transition时长归一）
 - **2026-05-28 晚上** — 专业设计审计：发现11个问题（P0-P3），涉及移动端导航缺失、品牌无个性、标签模式滥用、无社会证明、无入场动画等。全部逐一修复：添加汉堡菜单+滚动动画hook(useReveal)+客户评价组件(Trusted)+品牌标语+Section头部多样化
+- **2026-05-28 深夜** — 开发动漫混剪自动化流水线 (anime-pipeline)：Python CLI 工具，MoviePy + librosa + OpenCV，支持片段分析(动作分数/情绪分数/场景检测)、BGM 匹配(beat检测)、燃向/情绪向双模板编辑、自动标题标签生成、B站/抖音发布。鬼灭之刃无限列车 144 个片段已全部分析缓存
+- **2026-05-28 深夜** — 修复 MoviePy 2.x API 兼容性：subclip→subclipped、volumex→with_volume_scaled、set_audio→with_audio、fx→with_effects、fl→with_updated_frame_function 等，涉及 editor.py/ran.py/qingxu.py 三个文件
+- **2026-05-28 深夜** — 修复 Windows 页文件耗尽 (WinError 1455)：编辑器添加最大片段数限制(12)、最小文件大小过滤(500KB)、最小时长过滤(0.3s)，解决同时加载大量 ffmpeg 进程导致虚拟内存不足
+- **2026-05-28 深夜** — 首次渲染成功: anime_ran.mp4 (25MB/22s/燃向)，但用户反馈自动生成质量差，后续改为提供人工剪辑建议
+- **2026-05-28 深夜** — 为鬼灭之刃无限列车素材提供炎柱人物志剪辑方案：五段式结构(登场→战斗→台词→陨落→余韵)、BGM 建议、卡点与过渡技巧

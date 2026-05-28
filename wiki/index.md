@@ -11,6 +11,7 @@
 | [[项目/桌面宠物]] | PyQt5 像素猫桌宠，DeepSeek AI 驱动，文件交互 | `pyqt5` `deepseek` `desktop-pet` |
 | [[项目/SitePro 企业官网模板]] | Next.js 中英文双语企业官网，猪八戒作品案例，三轮设计打磨 | `nextjs` `tailwind` `corp-site` |
 | [[项目/SitePro 设计打磨记录]] | impeccable + taste-skill + ui-ux-pro-max 三轮打磨 + 专业审计修复 | `design` `impeccable` `taste` |
+| [[项目/动漫混剪流水线]] | Python CLI 动漫 AMV 自动化剪辑，MoviePy+librosa，B站/抖音发布 | `python` `amv` `moviepy` `automation` |
 | [[项目/猪八戒接单策略]] | 自由职业接单攻略：定价、注册、平台分析 | `freelance` `zhubajie` `pricing` |
 
 ## 🔧 技术问题
