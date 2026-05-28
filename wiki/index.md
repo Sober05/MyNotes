@@ -8,7 +8,7 @@
 | 页面 | 说明 | 标签 |
 |------|------|------|
 | [[项目/护理学简历页面]] | 响应式 HTML 护理学简历，支持导出 PDF | `resume` `html` `css` |
-| [[项目/桌面宠物]] | PyQt5 像素猫桌宠，DeepSeek AI 驱动，文件交互 | `pyqt5` `deepseek` `desktop-pet` |
+| [[项目/桌面宠物]] | PyQt5 SVG 动画猫桌宠，DeepSeek AI + Claude Code 桥接，安全审计已修复 | `pyqt5` `deepseek` `desktop-pet` `claude-code` |
 | [[项目/SitePro 企业官网模板]] | Next.js 中英文双语企业官网，猪八戒作品案例，三轮设计打磨 | `nextjs` `tailwind` `corp-site` |
 | [[项目/SitePro 设计打磨记录]] | impeccable + taste-skill + ui-ux-pro-max 三轮打磨 + 专业审计修复 | `design` `impeccable` `taste` |
 | [[项目/动漫混剪流水线]] | Python CLI 动漫 AMV 自动化剪辑，MoviePy+librosa，B站/抖音发布 | `python` `amv` `moviepy` `automation` |
