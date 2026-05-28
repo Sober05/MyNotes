@@ -1,7 +1,7 @@
 # Wiki 索引
 
 > LLM 查询入口。每次提问先读此文件定位相关页面。
-> 最后更新：2026-05-26
+> 最后更新：2026-05-28
 
 ## 📋 项目
 
@@ -9,6 +9,8 @@
 |------|------|------|
 | [[项目/护理学简历页面]] | 响应式 HTML 护理学简历，支持导出 PDF | `resume` `html` `css` |
 | [[项目/桌面宠物]] | PyQt5 像素猫桌宠，DeepSeek AI 驱动，文件交互 | `pyqt5` `deepseek` `desktop-pet` |
+| [[项目/SitePro 企业官网模板]] | Next.js 中英文双语企业官网，猪八戒作品案例 | `nextjs` `tailwind` `corp-site` |
+| [[项目/猪八戒接单策略]] | 自由职业接单攻略：定价、注册、平台分析 | `freelance` `zhubajie` `pricing` |
 
 ## 🔧 技术问题
 
