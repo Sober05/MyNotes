@@ -33,3 +33,8 @@
 - **2026-05-29 凌晨** — 色感挑战调试：(1) 僵尸 .js 脚手架文件删除让 TS 重新编译、(2) `IAppOption` 未 export 导致编译失败、(3) `btoa()` 不存在→手写 base64→`wx.arrayBufferToBase64` 不在类型定义→再改手写、(4) WXSS `@import` 路径解析不一致→全部内联、(5) 全局 300ms `_tapGuard` 导致色块→槽位连续点击被拦截→移除、(6) tutorial-overlay `visible` 默认 false 导致既看不到引导也进不了游戏→attached 时自动设为 true、(7) 最终回退到最小可用版本定位问题
 - **2026-05-28 深夜** — clawd 桌宠安全审计（小龙虾多智能体审查）：发现 11 个问题，含 API Key 明文存储(严重)、剪贴板设置不生效(高)、截图积累(高)等。全部修复：清空 config.json 中的 Key 改用 DEEPSEEK_API_KEY 环境变量、修复 _toggle_clipboard 空函数、shared/ 退出自动清理
 - **2026-05-28 深夜** — 桌宠启动失败排查：.pet-lock 残留 PID 被 Windows 复用导致单实例检测误判，将文件锁替换为 Windows 命名互斥体(CreateMutexW)彻底解决
+- **2026-05-29 下午** — 色感挑战第三轮优化：(1) 修复 doubleBonus 提交 bug（服务端拒绝 mode:doubleBonus+单 round）、(2) 修复 checkAchievements spotPerfectStreak 连续计数bug、(3) 消除 submitScore 与 utils/score.ts 评分逻辑重复、(4) audio.ts 添加4个 InnerAudioContext 对象池、(5) game.ts 所有 tap handler + startRound try-catch 错误边界、(6) result 页新增本局统计（正确率/平均用时/最佳单轮）
+- **2026-05-29 下午** — 色感挑战敏感信息脱敏：AppID 从 project.config.json 移到 project.private.config.json，云环境 ID 从 app.ts 抽离到 miniprogram/config.js。两者均加入 .gitignore，提供 config.example.js 模板。app.ts 改为 require('./config') 动态加载。
+- **2026-05-29 下午** — 色感挑战源码打包为 GitHub Gist（5500行聚合文件，排除敏感配置），分享给 DeepSeek 审查
+- **2026-05-29 下午** — 色感挑战第四轮深度审查（20项缺陷 P0-P3）：(P0) 5个云函数+1个前端 UTC→北京时间修复 (beijingDate函数)、(P1) particle-burst定时器泄漏修复、game.ts复活防重入锁、颜色生成deltaE下限 3→10+搜索算法加强、share-card Canvas 高DPR风险记录、(P2-P3) 排行榜缺昵称、新手引导无跳过选项、成就冷启动超时、广告占位符等。新增 runSelfCheck() 全局健康检查函数（14项自检）。审查报告上传为 GitHub Gist。
+- **2026-05-29 下午** — sync-obsidian 同步本次会话全部变更
