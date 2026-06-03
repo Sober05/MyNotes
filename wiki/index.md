@@ -14,6 +14,7 @@
 | [[项目/动漫混剪流水线]] | Python CLI 动漫 AMV 自动化剪辑，MoviePy+librosa，B站/抖音发布 | `python` `amv` `moviepy` `automation` |
 
 | [[项目/色感挑战小程序]] | 微信小程序色彩感知测试，4 模式+段位+好友挑战+裂变，已提审 ICP 备案 | `miniapp` `wechat` `color` `game` |
+| [[项目/闲鱼接单]] | 闲鱼自动化脚本/小程序/网站接单，利用 Claude Code 快速交付 | `xianyu` `freelance` `automation` |
 
 ## 🔧 技术问题
 
