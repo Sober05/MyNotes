@@ -1,6 +1,6 @@
 # SitePro 企业官网模板
 
-> Next.js 中英文双语企业官网，猪八戒接单作品案例。历经 impeccable + taste-skill + ui-ux-pro-max 三轮设计打磨 + 专业审计修复。
+> Next.js 中英文双语企业官网。历经 impeccable + taste-skill + ui-ux-pro-max 三轮设计打磨 + 专业审计修复。
 
 ## 技术栈
 
